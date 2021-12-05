@@ -1,0 +1,119 @@
+.mesaj {
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding:40px;
+    text-align: center;
+}
+
+h1 {
+    /*background-color: blanchedalmond;*/
+    background-image: url("bg6.jpg");
+    background-position: bottom;
+    font-size: 100px;
+    color: black;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-family: 'Permanent Marker', cursive, 'Calibri';
+    height: 700px;
+    text-align: center;
+}
+
+.diamat {
+    background-color: blanchedalmond;
+    border-style: dashed;
+    border-width: 4px;
+    font-size: 50px;
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-family: 'Permanent Marker', cursive, 'Calibri';
+}
+
+.invitatieSpeciala {
+    background-color: blanchedalmond;
+    border-style: solid;
+    border-width: 4px;
+    font-size: 50px;
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-family: 'Permanent Marker', cursive, 'Calibri';
+    padding-bottom: 10px;
+}
+
+.invSpec {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+h4 {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+h4:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+p {
+    background-color: blanchedalmond;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: rgb(255, 250, 237);
+    text-align: center;
+}
+
+footer {
+    color: grey;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Inter', 'Calibri';
+}
+
+h2 {
+    margin-top: 70px;
+    text-align: center;
+    font-family: 'Inter', 'Calibri';
+}
+
+img {
+    border-radius: 100px;
+    width: 270px;
+    height: 350px;
+    object-fit: cover;
+    display: block;
+    margin: 20px;
+    transition: opacity 0.4s;
+}
+
+.prima {
+    border-style: ridge;
+    border-width: 4px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.elemente {
+   display: inline-block; 
+}
+
+img:hover {
+    opacity: 0.5;
+    border-style: dotted;
+    border-width: 4px;
+    border-color: blueviolet;
+}
+
+.heart {
+    color: blueviolet;
+}
+
+.heartFooter {
+    color: blueviolet;
+}

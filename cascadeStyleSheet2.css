@@ -1,0 +1,72 @@
+h1 {
+    /*background-color: blanchedalmond;*/
+    background-image: url("bg6.jpg");
+    background-position: center;
+    font-size: 100px;
+    color: black;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-family: 'Permanent Marker', cursive, 'Calibri';
+    height: 500px;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(255, 250, 237);
+    text-align: center;
+}
+
+footer {
+    color: grey;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Inter', 'Calibri';
+}
+
+#galerie {
+    display: inline-block;
+    border-style: ridge;
+    border-width: 4px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.galerie {
+    border-radius: 100px;
+    width: 250px;
+    height: 350px;
+    object-fit: cover;
+    display: inline-block;
+    margin: 70px;
+    transition: opacity 0.4s;
+}
+
+.galerieUltima {
+    border-radius: 100px;
+    width: 250px;
+    display: inline;
+    margin: 70px;
+    transition: opacity 0.4s;
+}
+
+.galerie:hover {
+    opacity: 0.5;
+    border-style: dotted;
+    border-width: 4px;
+    border-color: blueviolet;
+}
+
+.galerieUltima:hover {
+    opacity: 0.5;
+    border-style: dotted;
+    border-width: 4px;
+    border-color: blueviolet;
+}
+
+.heart {
+    color: blueviolet;
+}
+
+.heartFooter {
+    color: blueviolet;
+}

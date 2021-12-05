@@ -1,0 +1,50 @@
+.heading {
+    background-color: blanchedalmond;
+}
+
+h1 {
+    /*background-color: blanchedalmond;*/
+    background-position: center;
+    font-size: 100px;
+    color: black;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-family: 'Permanent Marker', cursive, 'Calibri';
+    text-align: center;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.bold {
+    color: blueviolet;
+}
+
+body {
+    background-color: rgb(255, 250, 237);
+    text-align: center;
+}
+
+footer {
+    color: grey;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Inter', 'Calibri';
+}
+
+video {
+    margin-bottom: 50px;
+}
+
+.heart {
+    color: blueviolet;
+}
+
+.heartFooter {
+    color: blueviolet;
+}
